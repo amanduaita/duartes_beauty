@@ -1,0 +1,117 @@
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    font-family: principal;
+}
+
+body {
+    background-color: #f1f1fd; 
+    font-family: 'Bookmanoldstyle', serif;
+    height: 100vh;
+    
+    
+}
+
+.menu{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.logo{
+    width: 15%;
+    padding: 20px;
+}
+
+.botao{
+
+    padding: 0% 5%;
+    font-size: 24px;
+    color: #4C5C43;
+    text-decoration: none;
+
+}
+
+.carrossel {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50x;
+    
+}
+
+.img{
+    border-radius: 24px;
+}
+
+.quemsomos {
+
+    display: flex;
+    align-items: center;
+    font-size: 46px;
+    color: #4C5C43;
+}
+
+.quemsomostxt {
+
+    display: flex;
+    flex-direction: column;
+    padding: 60px 30px 60px 200px;
+
+}
+
+.txt {
+
+    padding: 24px 24px 24px 0px;
+    font-size: 30px;
+}
+
+.ft {
+
+    width: 1094px;
+    height: 821px;
+    margin: 60px 200px 60px 30px;
+    border-radius: 24px;
+
+}
+
+footer {
+    background-color: #4C5C43;
+    border : 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color:#f1f1fd
+}
+
+.agende {
+    
+    padding: 30px 0px 12px 0px; ;
+    font-size: 24px;
+
+
+}
+
+.botoes {
+
+    display: flex;
+    padding: 24px;
+}
+
+.botaorodape {
+   font-family: socialmedia;
+   color: #f1f1fd;
+   font-size: 24px;
+   padding: 24px;
+   font-size: 40px;
+}
+
+.dev {
+
+    padding: 24px 0px 12px;
+
+
+}
